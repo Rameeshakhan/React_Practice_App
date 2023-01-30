@@ -1,16 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 import CurrentDate from './CurrentDate';
 import CurrentTime from './CurrentTime';
 import DynamicTime from './DynamicTime';
+import Time from './Time';
 
 function App() {
   return (
    <div>
     <CurrentDate />
     <CurrentTime />
-    <DynamicTime/>
+    {/* <DynamicTime/> */}
+    <Time />
    </div>
   );
 }
