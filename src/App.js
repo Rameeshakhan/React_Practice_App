@@ -6,6 +6,7 @@ import DynamicTime from './DynamicTime';
 import "bootstrap/js/dist/base-component";
 import Time from './Time';
 import Form from './Form';
+import Button from './Button';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
     {/* <CurrentTime /> */}
     {/* <DynamicTime/> */}
     {/* <Time /> */}
-    <Form heading="Enter text For conversion"/>
+    {/* <Form heading="Enter text For conversion"/> */}
+    <Button />
    </div>
   );
 }
